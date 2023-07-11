@@ -4,7 +4,7 @@ body{
 }
 
 .botones{
-    height: 96vh;
+    height: 94vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
