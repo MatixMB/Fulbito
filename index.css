@@ -6,7 +6,7 @@ body{
 .botones{
     height: 94vh;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
@@ -17,6 +17,10 @@ body{
     transition: 0.3s;
     outline: none;
     border: none;
+}
+
+.boton-main:last-child{
+    margin-top: 3rem;
 }
 
 .boton-main:hover{

@@ -8,13 +8,13 @@
   }
   
   .box-2 {
-    display: block;
-    position: absolute;
-    left: 3rem;
+    display: flex;
     flex-direction: column;
+    align-items: center;
     height: 70vh;
     color: black;
     font-size: x-large;
+    min-width: 350px;
   }
   
   body {
@@ -68,6 +68,7 @@
     border: 1px solid black;
     cursor: pointer;
     transition: 0.3s;
+    margin-bottom: 2rem;
   }
   
   #volver {

@@ -1,5 +1,7 @@
 body{
     background-color: rgb(58, 107, 148);
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 800;
 }
 
 hr {
@@ -33,7 +35,26 @@ hr {
 fieldset{
     background-color: white;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
 }
 
+.box-lista{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    max-width: 350px;
+}
 
+.box-lista li{
+    
+    list-style: none;
+}
 
+.box-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
