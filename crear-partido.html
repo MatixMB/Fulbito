@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="crear-partido.css">
+    <script type="text/javascript" src="jquery_js.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap" rel="stylesheet">
+
+    <title>Crear un Partido</title>
+</head>
+<body>
+    <div class="box-1">
+        <button id="volver">
+            <img src="img/arrow_back_FILL0_wght400_GRAD0_opsz48.svg" alt="Flecha Volver">
+                PAGINA PRINCIPAL
+        </button>
+        <hr>
+    </div>
+    <div class="box-2">
+            <form class="formulario">
+                <fieldset>
+                    <label for="fecha">FECHA</label>
+                    <br>
+                    <input type="date" name="fecha" id="fecha">
+                    <input type="time" id="hora">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label for="lugar">LUGAR</label> 
+                    <br>
+                    <input type="text" placeholder="Indica el lugar del evento" id="lugar">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <div class="box-agregar-jugadores">
+                        <label for="integrantes">AGREGAR JUGADORES</label>
+                        <button id="add-player">
+                             <img src="img/add_FILL0_wght400_GRAD0_opsz48.svg" alt="Agregar Jugadores">
+                        </button>
+                    </div>
+                    
+                    <br>
+                    <div>
+                        <ul class="inputs-generados">
+                            <li class="lista-ul-jugadores">
+                                <input type="text" name="integrantes" class="jugadores">
+                                <button id="remove-player">
+                                    <img src="img/close_FILL0_wght400_GRAD0_opsz48.svg" alt="Agregar Jugadores">
+                               </button>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </fieldset>
+                <input type="submit" value="GUARDAR PARTIDO" id="submit">
+            </form>
+    </div>
+</body>
+</html>
